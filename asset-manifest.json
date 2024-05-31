@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ColorSpace/static/css/main.598d7b21.css",
+    "main.js": "/ColorSpace/static/js/main.cb3766fe.js",
+    "static/js/787.5dae521d.chunk.js": "/ColorSpace/static/js/787.5dae521d.chunk.js",
+    "index.html": "/ColorSpace/index.html",
+    "main.598d7b21.css.map": "/ColorSpace/static/css/main.598d7b21.css.map",
+    "main.cb3766fe.js.map": "/ColorSpace/static/js/main.cb3766fe.js.map",
+    "787.5dae521d.chunk.js.map": "/ColorSpace/static/js/787.5dae521d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.598d7b21.css",
+    "static/js/main.cb3766fe.js"
+  ]
+}
