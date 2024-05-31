@@ -1,3 +1,7 @@
+[build]
+  publish = "build"  # Directory to publish (default: "public")
+  command = "npm run build"  # Command to run your build script (e.g., npm run build, yarn build)
+  
 [[redirects]]
 from="/*"
 to="/index.html"
