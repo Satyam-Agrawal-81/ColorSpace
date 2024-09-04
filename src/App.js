@@ -12,6 +12,7 @@ function App() {
     try {
       let colors = new Values(color).all(10);
       setList(colors);
+      setColor("");
     } catch (error) {
       setError(true);
       toast.error("Invalid Color Input");
