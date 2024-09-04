@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import SingleColor from "./SingleColor";
 import Values from "values.js";
+import {Toaster, toast} from 'react-hot-toast';
+
 function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
@@ -12,6 +14,7 @@ function App() {
       setList(colors);
     } catch (error) {
       setError(true);
+      toast.error("Invalid Color Input");
       console.log(error);
     }
   };
@@ -44,6 +47,7 @@ function App() {
           );
         })}
       </section>
+      <Toaster/>
     </>
   );
 }
